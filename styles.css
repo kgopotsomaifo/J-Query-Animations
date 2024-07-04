@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  background-color: white;
+}
+
+.accordionMenu {
+  width: 60%;
+  margin-left: 600px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 15px;
+  /* background-color: white; */
+}
+
+#content1,
+#content2,
+#content3,
+#content4 {
+  display: none;
+}
+
+.menuHeading {
+  width: 60%;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: lightgrey;
+  cursor: pointer;
+}
